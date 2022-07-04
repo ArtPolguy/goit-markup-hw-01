@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,71 +10,131 @@
     <header>
         <nav>
             <ul>
-                <!-- using logo as part of ul  -->
-                <li>WebStudio</li>
-                <li>Студия</li>
-                <li>Портфолио</li>
-                <li>Контакты</li>
-                <li>info@devstudio.com</li>
-                <li>+38 096 111 11 11</li>
+                <li>
+                    <a href="" lang="en">WebStudio</a>
+                </li>
+                <li>
+                    <a href="">Студия</a>
+                </li>
+                <li>
+                    <a href="">Портфолио</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
             </ul>
         </nav>
-        <div>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
-        </div>
+        <ul>
+            <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </header>
     <main>
+        <section>
+            <h1>Эффективные решения для вашего бизнеса</h1>
+            <button type="button">Заказать услугу</button>
+        </section>
         <!-- advantages section -->
-        <div>
-            <section>
-                <h4>Внимание к деталям</h4>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            </section>
-            <section>
-                <h4>Пунктуальность</h4>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            </section>
-            <section>
-                <h4>Планирование</h4>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </section>
-            <section>
-                <h4>Современные технологии</h4>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            </section>
-        </div>
+        <section>
+            <h2 lang="uk" hidden>Наші переваги</h2>
+            <div>
+                <table>
+                    <tr>
+                        <td>Внимание к деталям</td>
+                        <td>Пунктуальность</td>
+                        <td>Планирование</td>
+                        <td>Современные технологии</td>
+                    </tr>
+                    <tr>
+                        <td>Идейные соображения, а также начало повседневной работы по формированию позиции. </td>
+                        <td>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</td>
+                        <td>Равным образом консультация с широким активом в значительной степени обуславливает.</td>
+                        <td>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
         <!-- occupation section -->
-        <div>
+        <section>
             <h2>Чем мы занимаемся</h2>
-            <img src="./images/img-1.jpg" alt="img-1">
-            <img src="./images/img-2.jpg" alt="img-2">
-            <img src="./images/img-3.jpg" alt="img-3">
-        </div>
+            <ul>
+                <li>
+                    <img src="./images/img-1.jpg" 
+                    alt="руки человека набирают текст на клавиатуре"
+                    width="370"
+                    height="295">
+                </li>
+                <li>
+                    <img src="./images/img-2.jpg" 
+                    alt="человек сравнивает изображение на телефоне и ноутбуке"
+                    width="370"
+                    height="295">
+                </li>
+                <li>
+                    <img src="./images/img-3.jpg"
+                    alt="человек просматривает палитру цветов на планшете"
+                    width="370"
+                    height="295">
+                </li>
+            </ul>
+        </section>
         <!-- team section -->
-        <div>
+        <section>
             <h2>Наша команда</h2>
-            <div>
-                <img src="./images/PP_Игорь Демьяненко.jpg" alt="profile photo Игорь Демьяненко" width="270" height="260">
-                <p>Игорь Демьяненко</p>
-                <p>Product Designer</p>
-            </div>
-            <div>
-                <img src="./images/PP_Ольга Репина.jpg" alt="profile photo Ольга Репина" width="270" height="260">
-                <p>Ольга Репина</p>
-                <p>Frontend Developer</p>
-            </div>
-            <div>
-                <img src="/images/PP_Николай Тарасов.jpg" alt="profile photo Николай Тарасов"width="270" height="260">
-                <p>Николай Тарасов</p>
-                <p>Marketing</p>
-            </div>
-            <div>
-                <img src="./images/PP_Михаил Ермаков.jpg" alt="profile photo Михаил Ермаков"width="270" height="260">
-                <p>Михаил Ермаков</p>
-                <p>UI Designer</p>
-            </div>
-        </div>
+            <ul>
+                <li>
+                    <img src="./images/igor_demyanenko_profile_photo.jpg" 
+                    alt="фото профиля Игорь Демьяненко"
+                    width="270" height="260">
+                    <h3>Игорь Демьяненко</h3>
+                    <p lang="en">Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/olga_repina_profile_photo.jpg" 
+                    alt="фото профиля Ольга Репина"
+                    width="270" height="260">
+                    <h3>Ольга Репина</h3>
+                    <p lang="en">Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/nikolayi_tarasov_profile_photo.jpg" 
+                    alt="фото профиля Николай Тарасов"
+                    width="270" height="260">
+                    <h3>Николай Тарасов</h3>
+                    <p lang="en">Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/michail_ermakov_profile_photo.jpg" 
+                    alt="фото профиля Михаил Ермаков"
+                    width="270" height="260">
+                    <h3>Михаил Ермаков</h3>
+                    <p lang="en">UI Designer</p>
+                </li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        <h2 lang="en">WebStudio</h2>
+        <address>
+            <ul>
+                <li>
+                    <a href="https://goo.gl/maps/2nvCJboYjxiyjbgM6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
 </body>
 </html>
